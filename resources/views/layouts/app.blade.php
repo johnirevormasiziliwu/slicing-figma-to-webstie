@@ -12,6 +12,8 @@
 
     <!-- Link Google FontFamily Inter   -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 
 <body class="bg-gray-200 ">
@@ -20,7 +22,7 @@
     <!-- end navbar -->
 
     <!-- start body -->
-		<div class="px-16 py-6">
+		<div class="md:px-16  px-4 py-6">
 			@yield('content')
 		</div>
     <!-- end body -->

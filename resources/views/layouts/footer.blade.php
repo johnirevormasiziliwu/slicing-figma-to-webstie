@@ -56,11 +56,11 @@
                 </ul>
             </div>
         </div>
-        <div class="icons-sosial-media flex justify-center mt-10">
+        <div class="icons-sosial-media flex justify-center md:mt-10  ">
             <div class="flex flex-col">
-                <div class="text-gray-700 text-xl font-normal font-['Inter'] leading-loose tracking-wide">The Good
+                <div class="text-gray-700 md:text-xl font-normal font-['Inter'] leading-loose tracking-wide">The Good
                     Parent 2023 © All rights reserved</div>
-                <div class="flex flex-row justify-center my-3">
+                <div class="flex flex-row justify-center my-5">
                     <a href="" class="me-3 w-10 h-10 bg-red-700 rounded-md items-center flex-col inline-flex justify-center   ">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white text-center" fill="currentColor" viewBox="0 0 24 24">
                             <path

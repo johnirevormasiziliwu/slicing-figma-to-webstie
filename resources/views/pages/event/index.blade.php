@@ -128,12 +128,12 @@
 
         </div>
         <div class="conten-body-new-event mt-20 ">
-            <div class="content-body-title-search flex justify-between my-10 ">
-                <h1 class="text-gray-700 text-4xl font-semibold font-['Inter'] tracking-wide">Event Terbaru</h1>
-                <form action="#">
+            <div class="content-body-title-search flex flex-col md:flex-row justify-between my-10">
+                <h1 class="text-gray-700 text-2xl md:text-4xl font-semibold font-inter tracking-wide mb-4 md:mb-0">Event Terbaru</h1>
+                <form action="#" class="w-full md:w-auto">
                     <div class="relative flex items-center">
                         <input type="search" name="" id=""
-                            class="h-14 pl-10 pr-3 py-4 rounded-[10px] w-[480px] bg-gray-200 border border-neutral-400"
+                            class="h-14 pl-10 pr-3 py-4 rounded-[10px] w-full md:w-[480px] bg-gray-200 border border-neutral-400 "
                             placeholder="Cari Event...">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6 absolute top-4 ml-2 items-center ">
@@ -143,11 +143,12 @@
                     </div>
                 </form>
             </div>
+            
             <div class="conten-body-fill-new-event grid md:grid-cols-2 gap-4">
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event2.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event2.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -202,7 +203,7 @@
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event3.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event3.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -253,7 +254,7 @@
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event4.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event4.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -308,7 +309,7 @@
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event5.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event5.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -363,7 +364,7 @@
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event6.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event6.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -418,7 +419,7 @@
                 <div class="  bg-white rounded-[20px] border border-neutral-400 p-6">
                     <div class="grid md:grid-cols-2 gap-4">
                         <div>
-                            <img src="{{ asset('images/event/image-event7.png') }}" class=" border rounded-[15px]"
+                            <img src="{{ asset('images/event/image-event7.png') }}" class=" w-full border rounded-[15px]"
                                 alt="Image Event">
                         </div>
                         <div class="flex flex-col">
@@ -474,7 +475,7 @@
         </div>
         <div class="conten-body-popular-e-learning mt-20">
             <div class="content-body-title-next-previous flex justify-between my-10 ">
-                <h1 class="text-gray-700 text-4xl font-semibold font-['Inter'] tracking-wide">Popular E-Learning</h1>
+                <h1 class="text-gray-700 md:text-4xl text-2xl font-semibold font-['Inter'] tracking-wide">Popular E-Learning</h1>
                 <div class="flex items-center">
                     <button
                         class="bg-white shadow w-[41.50px] h-9 p-2 rounded-md border border-gray-200 flex-col justify-center items-center gap-2.5 inline-flex  ">
